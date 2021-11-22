@@ -37,6 +37,7 @@ const [libraryStatus, setLibraryStatus] = useState(false);
         songInfo={songInfo}
         songs={songs}
         setCurrentSong={setCurrentSong}
+        setSongs={setSongs}
       />
       <Library
         songs={songs}
